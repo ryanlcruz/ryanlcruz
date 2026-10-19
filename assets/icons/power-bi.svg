@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-labelledby="title desc">
+  <title id="title">Power BI style icon</title>
+  <desc id="desc">Custom dark skill-icon tile with three yellow bars of rising height.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2B3142"/>
+      <stop offset="1" stop-color="#1E2330"/>
+    </linearGradient>
+    <linearGradient id="tall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F7D84B"/>
+      <stop offset="1" stop-color="#E8B70E"/>
+    </linearGradient>
+    <linearGradient id="mid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F2C811"/>
+      <stop offset="1" stop-color="#D9A60A"/>
+    </linearGradient>
+    <linearGradient id="low" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E0AE0B"/>
+      <stop offset="1" stop-color="#B78806"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="1.2" stdDeviation="1.2" flood-color="#000" flood-opacity=".45"/>
+    </filter>
+  </defs>
+
+  <rect width="48" height="48" rx="11" fill="url(#bg)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="11" y="25" width="8" height="13" rx="2.2" fill="url(#low)"/>
+    <rect x="20" y="17.5" width="8" height="20.5" rx="2.2" fill="url(#mid)"/>
+    <rect x="29" y="10" width="8" height="28" rx="2.2" fill="url(#tall)"/>
+  </g>
+</svg>

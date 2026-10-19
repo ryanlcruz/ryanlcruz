@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-labelledby="title desc">
+  <title id="title">VBA style icon</title>
+  <desc id="desc">Custom dark skill-icon tile with a blue code badge and the letters VBA.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2B3142"/>
+      <stop offset="1" stop-color="#1E2330"/>
+    </linearGradient>
+    <linearGradient id="badge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5B8DEF"/>
+      <stop offset="1" stop-color="#3A62C9"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="1.2" stdDeviation="1.2" flood-color="#000" flood-opacity=".45"/>
+    </filter>
+  </defs>
+
+  <rect width="48" height="48" rx="11" fill="url(#bg)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="8.5" y="11" width="31" height="26" rx="4.5" fill="url(#badge)"/>
+    <path d="M14 18.5l-3 5.5 3 5.5M34 18.5l3 5.5-3 5.5" fill="none" stroke="#C9D8FF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" opacity=".9"/>
+    <text x="24" y="28.4" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#fff" letter-spacing=".3">VBA</text>
+  </g>
+</svg>

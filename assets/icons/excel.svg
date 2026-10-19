@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-labelledby="title desc">
+  <title id="title">Excel style icon</title>
+  <desc id="desc">Custom dark skill-icon tile with a green spreadsheet and a white X mark.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2B3142"/>
+      <stop offset="1" stop-color="#1E2330"/>
+    </linearGradient>
+    <linearGradient id="sheet" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#33C481"/>
+      <stop offset="1" stop-color="#21A366"/>
+    </linearGradient>
+    <linearGradient id="badge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1D8B53"/>
+      <stop offset="1" stop-color="#107C41"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="1.2" stdDeviation="1.2" flood-color="#000" flood-opacity=".45"/>
+    </filter>
+  </defs>
+
+  <rect width="48" height="48" rx="11" fill="url(#bg)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="17" y="10.5" width="21" height="27" rx="2.4" fill="url(#sheet)"/>
+    <path d="M17 17.4h21M17 24h21M17 30.6h21M27.5 10.5v27" stroke="#185C37" stroke-width="1.2" opacity=".55"/>
+    <rect x="9.5" y="15.5" width="17" height="17" rx="2.6" fill="url(#badge)"/>
+    <path d="M13.6 19.6l8.8 8.8M22.4 19.6l-8.8 8.8" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/>
+  </g>
+</svg>
