@@ -1,7 +1,7 @@
 # Ryan Leonel
 
 <p align="center">
-  <a href="https://github.com/Ryanleoncoder">
+  <a href="https://github.com/ryanlcruz">
     <img
       src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=800&color=58A6FF&center=true&vCenter=true&width=800&lines=Software+Development+%7C+Automation+%7C+AI+Systems;Building+tools+that+connect+systems;Python+%7C+JavaScript+%7C+Java;Linux+%7C+Cloud+%7C+APIs+%7C+AI+Agents"
       alt="Typing SVG"
@@ -95,7 +95,7 @@ I enjoy building useful tools and understanding how systems work under the hood 
 
 <p align="center">
   <img
-    src="https://raw.githubusercontent.com/Ryanleoncoder/github-metrics-cards/main/assets/metrics/contribution-activity.svg"
+    src="https://raw.githubusercontent.com/ryanlcruz/github-metrics-cards/main/assets/metrics/contribution-activity.svg"
     width="97%"
     alt="GitHub contribution activity"
   />
@@ -103,12 +103,12 @@ I enjoy building useful tools and understanding how systems work under the hood 
 
 <p align="center">
   <img
-    src="https://raw.githubusercontent.com/Ryanleoncoder/github-metrics-cards/main/assets/metrics/commit-languages.svg"
+    src="https://raw.githubusercontent.com/ryanlcruz/github-metrics-cards/main/assets/metrics/commit-languages.svg"
     width="48%"
     alt="Languages by commits"
   />
   <img
-    src="https://raw.githubusercontent.com/Ryanleoncoder/github-metrics-cards/main/assets/metrics/active-repositories.svg"
+    src="https://raw.githubusercontent.com/ryanlcruz/github-metrics-cards/main/assets/metrics/active-repositories.svg"
     width="48%"
     alt="Recently used languages"
   />
